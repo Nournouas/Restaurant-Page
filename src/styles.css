@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    height: 100vh;
+}
+
+p{
+    margin: 32px 32px;
+    max-width: 33%;
+}
+img{
+    border-radius: 16px;
+}
+
+.top-card{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, button{
+    margin: 24px 0px;
+}
+
+h1{
+    font-size: 64px;
+}
+
+h1, h2{
+    color: white
+}
+
+.footer-form{
+    display: flex;
+    gap: 64px;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-form > input[type="submit"]{
+    font-size: 16px;
+    width: 200px;
+    padding: 11px 18px;
+}
+
+.footer-form div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+nav{
+    padding: 12px;
+}
