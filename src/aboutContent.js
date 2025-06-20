@@ -1,4 +1,4 @@
-import poopcake from "./poopcake.jpg";
+import poopcake from "./cake.jpg";
 export const div = document.createElement("div");
 div.setAttribute("id", "content");
 
