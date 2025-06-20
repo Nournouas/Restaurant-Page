@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 body{
     height: 100vh;
@@ -11,11 +11,13 @@ p{
     max-width: 33%;
 }
 img{
+    max-width: 33%;
     border-radius: 16px;
 }
 
 .top-card{
     min-height: 80vh;
+    padding: 40px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,5 +58,57 @@ h1, h2{
 }
 
 nav{
+    height: 100%;
     padding: 12px;
+    background: #ffe9c7;
+    background: linear-gradient(90deg,rgba(255, 233, 199, 1) 0%, rgba(255, 245, 191, 1) 50%, rgba(232, 206, 153, 1) 99%);
+    display: flex;
+    gap: 16px;
+}
+
+nav button{
+    margin: 0;
+    padding: 10px 14px;
+    min-width: 100px;
+    font-weight: 100;
+    background-color: #001638;
+    color: whitesmoke;
+    cursor: pointer;
+    top:0;
+    position: relative;
+    transition: top ease-in 0.25s;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+nav button:hover{
+    transform: scale(1.02);
+    top: -5px;
+    background-color: #113771;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button{
+    margin: 0;
+    padding: 12px 20px;
+    min-width: 300px;
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #cf3b3b;
+    color: rgb(14, 14, 14);
+    border: none;
+    cursor: pointer;
+    top:0;
+    position: relative;
+    transition: top ease-in 0.25s;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.02);
+    top: -5px;
+    background-color: #921111;
+    color: whitesmoke;
+    cursor: pointer;
 }

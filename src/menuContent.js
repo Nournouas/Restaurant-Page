@@ -16,6 +16,7 @@ divTopCard.appendChild(h2);
 divTopCard.appendChild(h1);
 divTopCard.appendChild(buttonOne);
 
-div.style.boxShadow= "0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0,0,0,.5)"
+div.style.background = "#faf2f7";
+div.style.background = "radial-gradient(circle, rgb(18, 12, 4) 0%, rgb(0, 0, 0) 100%)";
 
 div.appendChild(divTopCard);

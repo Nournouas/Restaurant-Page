@@ -1,4 +1,4 @@
-import poopcake from "./cake.jpg";
+import poopcake from "./cake.png";
 export const div = document.createElement("div");
 div.setAttribute("id", "content");
 
@@ -8,8 +8,10 @@ divTopCard.classList.add("top-card");
 
 const h2 = document.createElement("h2");
 h2.textContent = "Who are we?";
+h2.style.color = "black";
 
 const h1 = document.createElement("h1");
+h1.style.color = "black";
 h1.textContent = "OUR STORY";
 
 const img = document.createElement("img")
@@ -23,6 +25,5 @@ divTopCard.appendChild(h1);
 divTopCard.appendChild(img);
 divTopCard.appendChild(p)
 
-div.style.boxShadow= "0px 4px 4px 0px #00000040,inset 0 0 0 1000px rgba(0, 0, 0, 0.49)"
 
 div.appendChild(divTopCard);
