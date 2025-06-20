@@ -71,13 +71,13 @@ nav button{
     padding: 10px 14px;
     min-width: 100px;
     font-weight: 100;
-    background-color: #001638;
+    background-color: #001638db;
     color: whitesmoke;
     cursor: pointer;
     top:0;
     position: relative;
     transition: top ease-in 0.25s;
-    border-radius: 12px;
+    border-radius: 4px;
     font-size: 16px;
 }
 
